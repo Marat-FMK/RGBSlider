@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         }
     }
     @IBOutlet weak var blueSlider: UISlider!
-    
+    //можно сразу
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -38,13 +38,11 @@ class ViewController: UIViewController {
         gColorValue.text = String(greenSlider.value)
         bColorValue.text = String(blueSlider.value)
     }
-            
-    
-            
+            //что бы сразу подставлял значение слайдеров
     func changeColor() {
         colorView.backgroundColor = UIColor.init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
     }
- 
+ //функция передачи цвета во вью
     @IBAction func rgbSliderChanged(_ sender: Any) {
         changeColor()
         
@@ -52,9 +50,6 @@ class ViewController: UIViewController {
         gColorValue.text = String(greenSlider.value)
         bColorValue.text = String(blueSlider.value)
     }
-    
-    
-    
-    
+    //связь слайдера и функции
 }
 
