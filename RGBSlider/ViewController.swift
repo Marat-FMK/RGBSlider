@@ -34,7 +34,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
+        rColorValue.text = String(redSlider.value)
+        gColorValue.text = String(greenSlider.value)
+        bColorValue.text = String(blueSlider.value)
     }
             
     

@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RGBSlider" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="right" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -109,12 +109,13 @@
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="lro-XQ-C0y" firstAttribute="top" secondItem="NeG-Xr-sVn" secondAttribute="bottom" constant="90" id="0T2-dJ-Dbg"/>
+                            <constraint firstItem="lro-XQ-C0y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="ND4-k7-rFP"/>
+                            <constraint firstItem="TlJ-E5-Mth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NG8-5a-nP1"/>
                             <constraint firstItem="NeG-Xr-sVn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="a1M-Fm-JAi"/>
                             <constraint firstItem="TlJ-E5-Mth" firstAttribute="top" secondItem="NeG-Xr-sVn" secondAttribute="bottom" constant="90" id="fSw-Qt-PQO"/>
                             <constraint firstItem="NeG-Xr-sVn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="l6g-Cd-RlV"/>
-                            <constraint firstItem="lro-XQ-C0y" firstAttribute="leading" secondItem="TlJ-E5-Mth" secondAttribute="trailing" constant="66" id="rgG-O9-NLF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lro-XQ-C0y" secondAttribute="bottom" constant="391.5" id="tKj-9h-DKE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vgp-a3-XL9" secondAttribute="trailing" constant="16" id="wcP-Ez-u8J"/>
-                            <constraint firstItem="vgp-a3-XL9" firstAttribute="leading" secondItem="lro-XQ-C0y" secondAttribute="trailing" constant="71.5" id="yNQ-83-An7"/>
                             <constraint firstItem="vgp-a3-XL9" firstAttribute="top" secondItem="NeG-Xr-sVn" secondAttribute="bottom" constant="82" id="zyM-QI-uXe"/>
                         </constraints>
                     </view>
