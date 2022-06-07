@@ -83,12 +83,21 @@
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="d4c-xB-HT2">
                                         <rect key="frame" x="-2" y="0.0" width="156" height="31"/>
+                                        <connections>
+                                            <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hd8-yR-r7I"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="J56-uh-aaZ">
                                         <rect key="frame" x="-2" y="40" width="156" height="31"/>
+                                        <connections>
+                                            <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="34C-d5-Xv5"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="IBk-6R-A7w">
                                         <rect key="frame" x="-2" y="80" width="156" height="31"/>
+                                        <connections>
+                                            <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Inh-ur-b4M"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <constraints>
@@ -109,6 +118,15 @@
                             <constraint firstItem="vgp-a3-XL9" firstAttribute="top" secondItem="NeG-Xr-sVn" secondAttribute="bottom" constant="82" id="zyM-QI-uXe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bColorValue" destination="aTC-qD-Fay" id="kig-TM-oBV"/>
+                        <outlet property="blueSlider" destination="IBk-6R-A7w" id="WU2-qr-fzy"/>
+                        <outlet property="colorView" destination="NeG-Xr-sVn" id="OuN-Jm-sEL"/>
+                        <outlet property="gColorValue" destination="3GZ-YP-ApW" id="AUb-wg-3Bk"/>
+                        <outlet property="greenSlider" destination="J56-uh-aaZ" id="ofe-Ya-fVS"/>
+                        <outlet property="rColorValue" destination="bcq-LW-WS9" id="epi-qt-6s3"/>
+                        <outlet property="redSlider" destination="d4c-xB-HT2" id="uwq-so-6SZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
